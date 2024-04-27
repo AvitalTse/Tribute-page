@@ -1,0 +1,122 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title >Sir Winston Churchill</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="title">
+        <h1>Sir Winston Churchill</h1>
+        <p id="ptitle">The man who led Britain to victory in the Second World War</p>
+      <div id="img-div">
+        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/6/68/Siege_of_Sidney_Street_%E2%80%93_Churchill.jpg">
+       <div id="img-caption"> <p>Churchill (second left) photographed at the Siege of Sidney Street</p></div>
+        </div>
+        <div class="timeline"><h4>Here's a time line of Sir Churchill's life:</h4>
+        <ul>
+         <li class="right"><span><span class="bold">1904–1908</span> - Liberal MP.As a Liberal, Churchill attacked government policy and gained a reputation as a radical under the influences of John Morley and David Lloyd George.</span></li>
+          <li class="right"><span><span class="bold">1908–1915</span> - Asquith government. Asquith succeeded the terminally ill Campbell-Bannerman on 8 April 1908 and, four days later, Churchill was appointed President of the Board of Trade.</span></li>
+          <li class="right"><span><span class="bold">1915–1916</span> - Military service. On 25 November 1915, Churchill resigned from the government, although he remained an MP. Asquith rejected his request to be appointed Governor-General of British East Africa.</span></li>
+          <li class="right"><span><span class="bold">1916–1924</span>Lloyd George governmen.In October 1916, Asquith resigned as prime minister and was succeeded by Lloyd George who, in May 1917, sent Churchill to inspect the French war effort.</span></li>
+          <li class="right"><span><span class="bold">1922–1924</span> - Out of Parliament. Churchill spent much of the next six months at the Villa Rêve d'Or near Cannes, where he devoted himself to painting and writing his memoirs.</span></li>
+          <li class="right"><span><span class="bold">1924–1929</span> - Chancellor of the Exchequer.Becoming Chancellor on 6 November 1924, Churchill formally rejoined the Conservative Party.</span></li>
+          <li class="right"><span><span class="bold"> 1929–1939</span> - The "Wilderness Years".In the 1929 general election, Churchill retained his Epping seat, but the Conservatives were defeated, and MacDonald formed his second Labour government.</span></li>
+          <li class="right"><span><span class="bold">September 1939 to May 1940</span> - First Lord of the Admiralty. On 3 September 1939, the day Britain declared war on Germany, Chamberlain reappointed Churchill as First Lord of the Admiralty and he joined Chamberlain's war cabinet.</span></li>
+          <li class="right"><span><span class="bold">1940–1945</span> - Prime Minister.In May, Churchill was still generally unpopular with many Conservatives and probably most of the Labour Party.</span></li>
+          <li class="right"><span><span class=
+          "bold">1945–1951</span> - Leader of the Opposition. Churchill continued to lead the Conservative Party and served as Leader of the Opposition. In 1946, he was in America for nearly three months from early January to late March.</span></li>
+          <li class="right"><span><span class="bold">1951–1955</span> - Prime Minister. Despite losing the popular vote to Labour, the Conservatives won an overall majority of 17 seats in the October 1951 general election and Churchill again became prime minister, remaining in office until his resignation on 5 April 1955.</span></li>
+          </ul>
+          </div>
+        <p class="quote"> “We have not journeyed across the centuries, across the oceans, across the mountains, across the prairies, because we are made of sugar candy.”
+<br><br>
+       —Canadian Parliament, Ottawa, 30 December 1941.</p>
+         <div class="bold" id="tribute-info">
+      If you have time, you should read more about this incredible human being on his <a target="_blank" id="tribute-link" href="https://en.wikipedia.org/wiki/Winston_Churchill#Liberal_MP:_1904%E2%80%931908">Wikipedia entry</a>.
+    </div>
+    </div>
+      </main>
+
+   
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#title , #tribute-info{
+  background-color:#DCDCDC;
+  text-align:center;
+  border-radius:10px;
+}
+
+#title{
+  margin-bottom:0;
+}
+
+#img-div{
+  background-color:white;
+  width:90%;
+  text-align:center;
+  margin:auto;
+  height:55rem;
+  
+}
+
+#image{
+  max-width:100%;
+  width:70%;
+  padding-top:70px;
+ height:auto;
+display:block;
+margin:auto;
+ 
+}
+
+body{
+  margin:40px 10px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+
+.bold{
+  font-weight:600;
+
+}
+
+.right{
+  margin:10px;
+}
+
+ul{
+ text-align: left;
+ margin: 0 30%;
+ font-size:1.0rem;
+}
+
+#tribute-info{
+  padding:2rem;
+}
+ 
+ .quote{
+   font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size:1.1rem;
+    padding-top:1.0rem;
+ }
+
+
+** end of undefined **
+
